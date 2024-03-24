@@ -14,6 +14,11 @@
 		670397752BA99D77003BE362 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670397742BA99D77003BE362 /* MemorizeTests.swift */; };
 		6703977F2BA99D77003BE362 /* MemorizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703977E2BA99D77003BE362 /* MemorizeUITests.swift */; };
 		670397812BA99D77003BE362 /* MemorizeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670397802BA99D77003BE362 /* MemorizeUITestsLaunchTests.swift */; };
+		670EC49B2BB05FE20036E181 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EC49A2BB05FE20036E181 /* CardView.swift */; };
+		670EC49C2BB05FE20036E181 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EC49A2BB05FE20036E181 /* CardView.swift */; };
+		670EC49D2BB05FE20036E181 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EC49A2BB05FE20036E181 /* CardView.swift */; };
+		670EC49E2BB060150036E181 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670397652BA99D75003BE362 /* ContentView.swift */; };
+		670EC49F2BB060160036E181 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670397652BA99D75003BE362 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,7 @@
 		6703977A2BA99D77003BE362 /* MemorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6703977E2BA99D77003BE362 /* MemorizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITests.swift; sourceTree = "<group>"; };
 		670397802BA99D77003BE362 /* MemorizeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		670EC49A2BB05FE20036E181 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			children = (
 				670397632BA99D75003BE362 /* MemorizeApp.swift */,
 				670397652BA99D75003BE362 /* ContentView.swift */,
+				670EC49A2BB05FE20036E181 /* CardView.swift */,
 				670397672BA99D77003BE362 /* Assets.xcassets */,
 				670397692BA99D77003BE362 /* Preview Content */,
 			);
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				670397662BA99D75003BE362 /* ContentView.swift in Sources */,
+				670EC49B2BB05FE20036E181 /* CardView.swift in Sources */,
 				670397642BA99D75003BE362 /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670EC49C2BB05FE20036E181 /* CardView.swift in Sources */,
 				670397752BA99D77003BE362 /* MemorizeTests.swift in Sources */,
+				670EC49E2BB060150036E181 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				670397812BA99D77003BE362 /* MemorizeUITestsLaunchTests.swift in Sources */,
+				670EC49D2BB05FE20036E181 /* CardView.swift in Sources */,
+				670EC49F2BB060160036E181 /* ContentView.swift in Sources */,
 				6703977F2BA99D77003BE362 /* MemorizeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

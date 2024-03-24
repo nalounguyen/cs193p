@@ -8,38 +8,63 @@
 import SwiftUI
 
 struct ContentView: View {
-    let emojis = ["👹", "🤡", "💩", "🎃", "🐶" ]
+    //MARK: - Propertiese
+    let emojis = ["👹", "🤡", "💩",
+                  "🎃", "🐶", "🍄",
+                  "🐼", "👑", "🐔",
+                  "🦋", "🐙", "🐤",
+                  "🐳", "🦖", "🦚",
+                  "🪺", "🌈", "🔥",
+                  "💧", "❄️", "🌎",]
+    @State var count = 3
+    
+    
+    //MARK: - Views
     var body: some View {
-        HStack {
-            ForEach(emojis.indices, id: \.self) { index in
-                CardView(content: emojis[index])
-            }
+        ScrollView {
+            listCardView
         }
+        Spacer()
+        bottomView
+    }
+    
+    var listCardView: some View {
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], content: {
+            ForEach(0..<count, id: \.self) { index in
+                CardView(content: emojis[index])
+                    .aspectRatio(2/3,contentMode: .fit)
+            }
+        })
         .foregroundColor(.blue)
         .padding()
-        .font(.caption)
     }
-}
-
-struct CardView: View {
-    @State var isFaceUp: Bool = false
-    let content: String
     
-    var body: some View {
-        ZStack {
-            let temp = RoundedRectangle(cornerRadius: 12)
-            if isFaceUp {
-                temp.fill(.white)
-                temp.stroke(lineWidth: 3 )
-                Text(content)
-                    .font(.largeTitle)
-            } else {
-                temp.fill()
-            }
-            
-        }.onTapGesture {
-            isFaceUp.toggle()
-        }
+    var bottomView: some View {
+        HStack {
+            plusButton
+            Spacer()
+            minusButton
+        }.padding()
+    }
+    
+    var minusButton: some View {
+        makeAdjustButton(by: -1, symbel: "minus.square.fill")
+    }
+    
+    var plusButton: some View {
+        makeAdjustButton(by: 1, symbel: "plus.app.fill")
+    }
+    
+    //MARK: - Functions
+    func makeAdjustButton(by offset: Int, symbel: String) -> some View {
+        Button(action: {
+            count += offset
+        }, label: {
+            Image(systemName: symbel)
+                .imageScale(.large)
+                .font(.largeTitle)
+        })
+        .disabled(count + offset < 1 || count + offset > emojis.count)
     }
 }
 
