@@ -7,9 +7,12 @@
 
 ## 📸 Screenshots
 
+
+
 ======================================================
 #  Lectures 02
 ## 📸 Screenshots
+![Lectures-02](https://github.com/nalounguyen/cs193p/assets/61867099/1e42ad33-7fb9-4926-842e-a418d433e0af)
 ## 📝 Note
 ### @State
 `@State` is actually creating a pointer to a little piece of memory where it keeps isPlaying. So now the pointer never changes, the pointer itself, the thing it points to can change, but the pointer never changes
@@ -53,8 +56,10 @@ struct ChecklistRow: View {
     }
 }
 ```
-<img width="1000" alt="" src="https://docs-assets.developer.apple.com/published/ef8abe6c5040cec6797eff2d801eeb20/Spacer-2~dark@2x.png">
-<br><br><br>
+<p align="center">
+    <img width="700" alt="" src="https://docs-assets.developer.apple.com/published/ef8abe6c5040cec6797eff2d801eeb20/Spacer-2~dark@2x.png">
+</p>
+<br><br>
 Moving the spacer between the image and the name pushes those elements to the left and right sides of the HStack, respectively. Because the stack contains the spacer, it expands to take as much horizontal space as the parent view allows; the blue border indicates its size:
 
 ```swift
@@ -71,8 +76,10 @@ struct ChecklistRow: View {
     }
 }
 ```
-<img width="1000" alt="" src="https://docs-assets.developer.apple.com/published/5269b7a7cdbf3391878c3df7ec18f7f3/Spacer-3~dark@2x.png">
-<br><br><br>
+<p align="center">
+    <img width="700" alt="" src="https://docs-assets.developer.apple.com/published/5269b7a7cdbf3391878c3df7ec18f7f3/Spacer-3~dark@2x.png">
+</p>
+<br><br>
 
 Adding two spacer views on the outside of the stack leaves the image and text together, while the stack expands to take as much horizontal space as the parent view allows:
 
@@ -92,4 +99,6 @@ struct ChecklistRow: View {
     }
 }
 ```
-<img width="1000" alt="" src="https://docs-assets.developer.apple.com/published/84e1f1d1e23fb20f251379a608a529b2/Spacer-4~dark@2x.png">
+<p align="center">
+    <img width="700" alt="" src="https://docs-assets.developer.apple.com/published/84e1f1d1e23fb20f251379a608a529b2/Spacer-4~dark@2x.png">
+</p>
