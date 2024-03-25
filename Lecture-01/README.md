@@ -7,9 +7,12 @@
 
 ## 📸 Screenshots
 
+
+
 ======================================================
 #  Lectures 02
 ## 📸 Screenshots
+![Lectures-02](https://github.com/nalounguyen/cs193p/assets/61867099/1e42ad33-7fb9-4926-842e-a418d433e0af)
 ## 📝 Note
 ### @State
 `@State` is actually creating a pointer to a little piece of memory where it keeps isPlaying. So now the pointer never changes, the pointer itself, the thing it points to can change, but the pointer never changes
