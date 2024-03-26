@@ -14,10 +14,10 @@ My code, personal notes & assignment solutions (+ extra credit) are all listed i
 ## 🚧 Progress
 | Lectures | Code & Notes | Reading Assignments| Programming Assignments |
 | --------------- | :-------------: | :-------------: | :-------------: |
-| [1: Getting Started](https://www.youtube.com/watch?v=n1qabtjZ_jg) | - | - | - |
-| [2: More SwiftUI](https://www.youtube.com/watch?v=sXiD-2XrkKQ) | - | - | - |
-| [3: MMVM](https://www.youtube.com/watch?v=W1ymVx6dmvc) | - | - | - |
-| [4: Applying MMVM](https://www.youtube.com/watch?v=4CkEVfdqjLw) | - | - | - |
+| [1: Getting Started](https://www.youtube.com/watch?v=n1qabtjZ_jg) | [Lecture 01 + 02](./Lecture-01+02) | [Reading Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1_0.pdf) | - |
+| [2: More SwiftUI](https://www.youtube.com/watch?v=sXiD-2XrkKQ) | [Lecture 01 + 02](./Lecture-01+02) | - | [Programming Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1_0.pdf) |
+| [3: MMVM](https://www.youtube.com/watch?v=W1ymVx6dmvc) | [Lecture 03 + 04](./Lecture-03+04) | - | - |
+| [4: Applying MMVM](https://www.youtube.com/watch?v=4CkEVfdqjLw) | [Lecture 03 + 04](./Lecture-03+04) | - | - |
 | [5: Protocols, enum, Optional](https://youtu.be/F1x-H8kEwo8) | - | - | - |
 | [6: Layout, @ViewBuilder](https://youtu.be/fYlMD9llu7w) | - | - | - |
 | [7: Shape, ViewModifier, Constants](https://youtu.be/KR7DXJYhkBw) | - | - | - |
